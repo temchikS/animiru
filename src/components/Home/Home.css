@@ -1,0 +1,42 @@
+.anime-card {
+  width: fit-content;
+  text-align: center;
+}
+.anime-list {
+  width: fit-content;
+}
+.popular-anime-list__filters,
+.anime-list-container {
+  display: flex;
+  gap: 25px;
+}
+.anime-list-container__filters {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+.anime-list-container {
+  overflow-x: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.anime-list-container::-webkit-scrollbar {
+  display: none;
+}
+.list {
+  width: 100%;
+  margin: 25px 0;
+}
+.filters {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border-top: 2px solid rgb(41, 255, 255);
+  background-color: black;
+}
+.genre-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}

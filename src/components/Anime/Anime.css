@@ -1,0 +1,44 @@
+.anime {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: auto auto;
+  gap: 30px;
+}
+.big-cover {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 100%;
+  border-radius: 10px;
+}
+.about-anime {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.player-container {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.player {
+  position: relative;
+}
+.episode-selector {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 5;
+}
+.player > video {
+  width: 100%;
+  z-index: 4;
+}
+.country {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

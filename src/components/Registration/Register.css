@@ -1,0 +1,23 @@
+.register,
+.register-form,
+.login,
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register,
+.login {
+  height: 100%;
+}
+.register-form,
+.login-form {
+  margin-top: 0;
+  height: fit-content;
+  flex-direction: column;
+  gap: 15px;
+  padding: 25px;
+  border-radius: 15px;
+  border: 2px solid rgba(81, 21, 116, 1);
+  background-color: rgba(54, 31, 76, 0.09);
+}
