@@ -2,6 +2,12 @@
   width: fit-content;
   text-align: center;
 }
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+.hover-scale:hover {
+  transform: scale(1.1);
+}
 .anime-list {
   width: fit-content;
 }
@@ -16,12 +22,13 @@
   gap: 25px;
 }
 .anime-list-container {
+  padding: 15px 0;
   overflow-x: scroll;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
 
-.anime-list-container::-webkit-scrollbar {
+.scrollbar-none::-webkit-scrollbar {
   display: none;
 }
 .list {
