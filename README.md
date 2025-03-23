@@ -1,2 +1,2 @@
 Сайтик аниме
-![localhost_3000_anime_title_re-zero-kara-hajimeru-isekai-seikatsu](https://github.com/user-attachments/assets/7f4fde60-a962-4ccc-b8e4-8b140b9a5c6b)
+![localhost_3000_ (1)](https://github.com/user-attachments/assets/1b2b61eb-3fea-4167-b213-2f2db94df367)
