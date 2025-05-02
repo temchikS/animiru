@@ -3,6 +3,7 @@
 Технологии: 
 **Frontend**
 - React js
+- 
 **Backend**
 - C# (ASP>NET core 8.0)
 Так же использовал Anilibria API.
